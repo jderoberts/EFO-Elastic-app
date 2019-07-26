@@ -1,0 +1,24 @@
+{"index": {"_index": "efo", "_id": 1}}
+{"id": "EFO_0000249", "label": "Alzheimer's disease", "assocs": 5707, "synonyms": "Disease, Alzheimer|Dementia in Alzheimer's disease, unspecified (disorder)|Presenile Alzheimer Dementia|Alzheimer disease|ALZHEIMERS DIS|Alzheimers|sporadic Alzheimer's disease|DAT - Dementia Alzheimer's type|Alzheimer's disease, NOS|Dementia in Alzheimer's disease"}
+{"index": {"_index": "efo", "_id": 2}}
+{"id": "EFO_0003885", "label": "multiple sclerosis", "assocs": 2101, "synonyms": "Disseminated Sclerosis|multiple sclerosis|Multiple Sclerosis, Acute Fulminating|MS|MULTIPLE SCLEROSIS ACUTE FULMINATING|MS (Multiple Sclerosis)|Sclerosis, Multiple|Sclerosis, Disseminated"}
+{"index": {"_index": "efo", "_id": 3}}
+{"id": "EFO_0000685", "label": "rheumatoid arthritis", "assocs": 2785, "synonyms": "RA - Rheumatoid arthritis|Rheumatoid disease|RhA - Rheumatoid arthritis|arthritis or polyarthritis, rheumatic|atrophic arthritis|Chronic rheumatic arthritis|autoimmune arthritis|Rheumatoid arthritis (disorder)|rheumatoid arthritis|Rheumatoid arthritis NOS (disorder)"}
+{"index": {"_index": "efo", "_id": 4}}
+{"id": "EFO_0000313", "label": "carcinoma", "assocs": 13935, "synonyms": "malignant epithelial neoplasm|epithelial carcinoma|carcinoma|carcinoma, malignant|epithelioma malignant|Other carcinoma|epithelioma|malignant epithelial tumor|malignant epithelioma"}
+{"index": {"_index": "efo", "_id": 5}}
+{"id": "EFO_0001071", "label": "lung carcinoma", "assocs": 8450, "synonyms": "carcinoma OF LUNG|lung carcinoma|carcinoma of lung|carcinoma of the lung|Carcinoma of the Lung"}
+{"index": {"_index": "efo", "_id": 6}}
+{"id": "EFO_0000305", "label": "breast carcinoma", "assocs": 12082, "synonyms": "CA - Carcinoma of breast|Carcinoma of breast NOS|Mammary Carcinoma, Human|Carcinomas, Human Mammary|carcinoma of breast|Carcinoma of breast NOS (disorder)|carcinoma OF breast|Carcinoma of breast (disorder)|Carcinoma, Human Mammary|Human Mammary Carcinomas"}
+{"index": {"_index": "efo", "_id": 7}}
+{"id": "EFO_0002890", "label": "renal carcinoma", "assocs": 4171, "synonyms": "renal carcinoma|kidney (including renal cell) cancer|Carcinomas, Nephroid|Hypernephromas|Tumor, Grawitz|renal cancer|kidney (renal) cancer|Carcinomas, Hypernephroid|Carcinoma, Hypernephroid|kidney cancer"}
+{"index": {"_index": "efo", "_id": 8}}
+{"id": "EFO_0000478", "label": "esophageal adenocarcinoma", "assocs": 2371, "synonyms": "Adenocarcinoma of the Esophagus|esophageal adenocarcinoma|Oesophageal adenocarcinoma NOS|oesophageal adenocarcinoma|esophagus adenocarcinoma|adenocarcinoma of the esophagus|adenocarcinoma of esophagus (disorder)|adenocarcinoma - esophagus|adenocarcinoma of esophagus|Adenocarcinoma of oesophagus"}
+{"index": {"_index": "efo", "_id": 9}}
+{"id": "EFO_1001516", "label": "ovarian serous carcinoma", "assocs": 229, "synonyms": ""}
+{"index": {"_index": "efo", "_id": 10}}
+{"id": "EFO_0007460", "label": "reactive arthritis", "assocs": 106, "synonyms": "Reiter syndrome|venereal arthritis|reactive arthritis|Arthritis, Reactive|polyarthritis enterica|Reactive arthritis|post-bacterial arthropathy|postdysenteric arthropathy|Fiessinger-Leroy-Reiter syndrome|Reiter's disease"}
+{"index": {"_index": "efo", "_id": 11}}
+{"id": "Orphanet_2781", "label": "Osteopetrosis", "assocs": 633, "synonyms": "osteopetrosis (disease)|osteopetrosis|marble bones|marble bone|marble bone disease|Albers-Schonberg disease"}
+{"index": {"_index": "efo", "_id": 12}}
+{"id": "Orphanet_3261", "label": "Autoimmune lymphoproliferative syndrome", "assocs": 729, "synonyms": "ALPS|ALPS (autoimmune lymphoproliferative syndrome)|autoimmune lymphoproliferative syndrome|FAS deficiency|Canale-Smith syndrome"}

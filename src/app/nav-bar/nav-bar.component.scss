@@ -1,0 +1,25 @@
+.dropdown-content {
+  margin-top:4px;
+  margin-left:8px;
+  margin-right:8px;
+  float: right;
+  background:white;
+  position: absolute;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.icon {
+  width: 35px;
+  margin-right: 50px;
+}

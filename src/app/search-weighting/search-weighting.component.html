@@ -1,0 +1,70 @@
+<div class="jumbotron">
+<h4>This page allows comparison of boosting parameters on the order of results returned.</h4>
+<div class="md-form active-indigo-2 mb-3" style="width:22vw">
+  <input class="form-control" type="text" placeholder="Search"
+     [(ngModel)]="searchParameter" aria-label="Search" (keyup.enter)="fetchResults()">
+</div>
+</div>
+
+<div class="container">
+<div class="row justify-content-around">
+  <div class="col-sm-6 mb-3 mb-md-0">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">Query 1:</h4>
+        <div class="params">
+          <div class="md-form">
+            <input mdbInput type="text" class="form-control" id="nameexact1" [(ngModel)]="params1[0]"/>
+            <label for="nameexact1" class="">Name (exact):</label>
+          </div>
+          <div class="md-form">
+            <input mdbInput type="text" class="form-control" id="namepartial1" [(ngModel)]="params1[1]"/>
+            <label for="namepartial1" class="">Name (partial):</label>
+          </div>
+          <div class="md-form">            
+            <input mdbInput type="text" class="form-control" id="synonym1" [(ngModel)]="params1[2]"/>
+            <label for="synonym1" class="">Synonym boost:</label>
+          </div>
+          <div class="md-form">
+            <input mdbInput type="text" class="form-control" id="assoc1" [(ngModel)]="params1[3]"/>
+            <label for="assoc1" class="">Assoc. weighting:</label>
+          </div>
+        </div>
+        <div *ngIf="jsonResponse1.length">
+          <app-result-record *ngFor="let rec1 of jsonResponse1" [record]="rec1">
+          </app-result-record>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">Query 2:</h4>
+        <div class="params">
+          <div class="md-form">
+            <input mdbInput type="text" class="form-control" id="nameexact2" [(ngModel)]="params2[0]"/>
+            <label for="nameexact2" class="">Label (exact):</label>
+          </div>
+          <div class="md-form">
+            <input mdbInput type="text" class="form-control" id="namepartial2" [(ngModel)]="params2[1]"/>
+            <label for="namepartial2" class="">Label (partial):</label>
+          </div>
+          <div class="md-form">
+            <input mdbInput type="text" class="form-control" id="synonym2" [(ngModel)]="params2[2]"/>
+            <label for="synonym2" class="">Synonym boost:</label>
+          </div>
+          <div class="md-form">
+            <input mdbInput type="text" class="form-control" id="assoc2" [(ngModel)]="params2[3]"/>
+            <label for="assoc2" class="">Assoc. weighting:</label>
+          </div>
+        </div>
+        <div *ngIf="jsonResponse2.length">
+          <app-result-record *ngFor="let rec2 of jsonResponse2" [record]="rec2">
+          </app-result-record>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>

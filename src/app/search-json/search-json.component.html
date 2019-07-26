@@ -1,0 +1,31 @@
+<div class="jumbotron">
+<h4>This page returns response from Elasticsearch instance in JSON format.</h4>
+<div class="md-form active-indigo-2 mb-3" style="width:22vw">
+  <input class="form-control" type="text" placeholder="Search" 
+     [(ngModel)]="searchParameter" aria-label="Search" (keyup.enter)="onSubmit()">
+</div>
+</div>
+
+<div class="container">
+<div class="row justify-content-around">
+  <div class="col-sm-6 mb-3 mb-md-0">
+    <div class="card">
+    <div class="card-body">
+    <h4 class="card-title">Query:</h4>
+    <pre *ngIf="searchQuery" class="card-text json">{{searchQuery | json}}</pre>
+    </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+    <div class="card-body">
+    <h4 class="card-title">JSON Response:</h4>
+    <ng-template ngFor let-obj [ngForOf]="jsonResponse">
+      <hr>
+      <pre class="card-text json">{{obj | json}}</pre>
+    </ng-template>
+    </div>
+    </div>
+  </div>
+</div>
+</div>
